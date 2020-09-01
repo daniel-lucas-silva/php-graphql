@@ -19,7 +19,7 @@ use PhalconGraphQL\Plugins\Paging\OffsetLimitPagingPlugin;
 use PhalconGraphQL\Plugins\Filtering\FilterPlugin;
 use PhalconGraphQL\Plugins\Sorting\SimpleSortingPlugin;
 
-class SchemaBootstrap implements BootstrapInterface
+class SchemaBootstrap extends \Phalcon\DiInterface implements BootstrapInterface 
 {
     public function run(Api $api, DiInterface $di, Config $config)
     {
