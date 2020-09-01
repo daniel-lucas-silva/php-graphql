@@ -8,16 +8,16 @@
 return [
 
     'debug' => true,
-    'hostName' => 'http://phalcon-graphql-boilerplate.redound.dev',
-    'clientHostName' => 'http://phalcon-graphql-app.redound.dev',
+    'hostName' => 'http://agro-pk.umbler.net',
+    'clientHostName' => 'http://agro-pk.umbler.net',
     'database' => [
 
         // Change to your own configuration
         'adapter' => 'Mysql',
-        'host' => '127.0.0.1',
-        'username' => 'root',
-        'password' => 'root',
-        'dbname' => 'phalcon_graphql_boilerplate',
+        'host' => 'mysql669.umbler.com',
+        'username' => 'graphql',
+        'password' => 'atecubanos',
+        'dbname' => 'graphql',
     ],
     'cors' => [
         'allowedOrigins' => ['*']
